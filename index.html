@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CampusLink – Student Network</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">CampusLink</div>
+    <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+      ☾
+    </button>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Connect. Collaborate. Create.</h1>
+      <p>A mini network for students to discover skills, projects, and teammates.</p>
+    </section>
+
+    <section class="controls">
+      <input
+        type="text"
+        id="searchInput"
+        class="search-input"
+        placeholder="Search by name or skill..."
+      />
+
+      <div class="filters">
+        <button class="filter-btn active" data-branch="all">All</button>
+        <button class="filter-btn" data-branch="ECE">ECE</button>
+        <button class="filter-btn" data-branch="CSE">CSE</button>
+        <button class="filter-btn" data-branch="ME">ME</button>
+        <button class="filter-btn" data-branch="CE">CE</button>
+      </div>
+    </section>
+
+    <section id="cardsContainer" class="cards-grid">
+      <!-- Cards will be injected here by script.js -->
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Made for campus connections • CampusLink</p>
+  </footer>
+
+  <div id="modalOverlay" class="modal-overlay hidden">
+    <div class="modal">
+      <button id="modalClose" class="modal-close">×</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
