@@ -232,7 +232,7 @@ body {
   font-size: 0.7rem;
   padding: 0.18rem 0.55rem;
   border-radius: 999px;
-  background: rgba(15, 23, 42, 0.9);
+  background: rgb(159 162 168 / 90%);
   border: 1px solid rgba(148, 163, 184, 0.5);
 }
 
@@ -248,13 +248,13 @@ body {
   border-radius: 999px;
   padding: 0.25rem 0.75rem;
   border: 1px solid rgba(148, 163, 184, 0.7);
-  background: transparent;
+  background: #f0f0f0b3;
   cursor: pointer;
 }
 
 .status-tag {
   font-size: 0.7rem;
-  color: #bbf7d0;
+  color: #589b70;
   background: rgba(167, 187, 174, 0.15);
   border-radius: 999px;
   padding: 0.15rem 0.55rem;
